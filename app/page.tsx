@@ -27,7 +27,7 @@ export default function Home() {
           I want to use IT to alleviate the loneliness<br></br> of people with
           disabilities or illnesses
         </h2>
-        <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-3/5 text-center">
+        <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-4/6 md:w-80 text-center">
           <a href="" className="block  flex w-full text-center justify-center">
             <FontAwesomeIcon icon={faGithub} className="w-[30px] text-white" />
             <p className="text-white pl-1">GitHub</p>
@@ -97,15 +97,12 @@ export default function Home() {
 
               <p>作品名「ポチナビ」・チーム名「雛たち」</p>
 
-              <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-4/5 text-center">
+              <button className="bg-green-800 py-2 px-2 rounded-2xl m-2 text-2sm w-40 md:w-50">
                 <a
                   href="https://github.com/Naoya-Yasuda/HackU2023_project.git"
                   className="block  flex w-full text-center justify-center"
                 >
-                  <FontAwesomeIcon
-                    icon={faGithub}
-                    className="w-[30px] text-white"
-                  />
+                  <FontAwesomeIcon icon={faGithub} className="w-5 text-white" />
                   <p className="text-white pl-1">GitHub</p>
                 </a>
               </button>
@@ -129,12 +126,12 @@ export default function Home() {
                 統計解析と機械学習を用いた深刻な精神的苦痛の関連要因の探索
               </p>
 
-              <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-4/5 text-center">
+              <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2sm w-4/5 text-center w-40 md:w-50">
                 <a
                   href="https://portfolio-site-thesis-project-kujwb6geu.vercel.app/"
                   className="block  flex w-full text-center justify-center"
                 >
-                  <p className="text-white pl-1">研究を見る</p>
+                  <p className="text-white pl-1">詳細</p>
                 </a>
               </button>
             </div>
@@ -153,12 +150,12 @@ export default function Home() {
                 障がいや病気のある方が、孤独や孤立を感じたときに、安心して人とつながれる場所をつくりたいという思いから開発したプロダクトです。
               </p>
 
-              <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-4/5 text-center">
+              <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2sm w-4/5 text-center w-40 md:w-50">
                 <a
                   href="https://portfolio-site-lifenect.vercel.app/"
                   className="block  flex w-full text-center justify-center"
                 >
-                  <p className="text-white pl-1">デモを見る</p>
+                  <p className="text-white pl-1">詳細</p>
                 </a>
               </button>
             </div>
