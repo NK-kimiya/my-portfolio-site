@@ -118,7 +118,7 @@ export default function Home() {
                 priority
               />
               <small className="text-green-800">HACK</small>
-              <h3>卒業研究：精神的苦痛の関連要因の探索</h3>
+              <h3　className="text-lg>卒業研究：精神的苦痛の関連要因の探索</h3>
               <p className="text-sm">
                 統計解析と機械学習を用いた深刻な精神的苦痛の関連要因の探索
               </p>
@@ -142,8 +142,8 @@ export default function Home() {
                 height={600}
                 priority
               />
-              <h3>個人開発：「LifeNect」</h3>
-              <p className="">
+              <h3 className="text-lg>個人開発：「LifeNect」</h3>
+              <p className="text-sm">
                 障がいや病気のある方が、孤独や孤立を感じたときに、安心して人とつながれる場所をつくりたいという思いから開発したプロダクトです。
               </p>
 
