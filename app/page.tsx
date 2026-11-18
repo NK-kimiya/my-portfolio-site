@@ -142,7 +142,7 @@ export default function Home() {
                 height={600}
                 priority
               />
-              <h3 className="text-lg>個人開発：「LifeNect」</h3>
+              <h3 className="text-lg">個人開発：「LifeNect」</h3>
               <p className="text-sm">
                 障がいや病気のある方が、孤独や孤立を感じたときに、安心して人とつながれる場所をつくりたいという思いから開発したプロダクトです。
               </p>
