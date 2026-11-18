@@ -106,9 +106,6 @@ export default function Home() {
                   <p className="text-white pl-1">GitHub</p>
                 </a>
               </button>
-              <small className="block">
-                ハッカソンチーム「雛たち」のgithunリポジトリ
-              </small>
             </div>
 
             <div className="shadow-lg p-6 m-3">
@@ -122,7 +119,7 @@ export default function Home() {
               />
               <small className="text-green-800">HACK</small>
               <h3>卒業研究：精神的苦痛の関連要因の探索</h3>
-              <p className="text-blue-800">
+              <p className="">
                 統計解析と機械学習を用いた深刻な精神的苦痛の関連要因の探索
               </p>
 
@@ -146,7 +143,7 @@ export default function Home() {
                 priority
               />
               <h3>個人開発：「LifeNect」</h3>
-              <p className="text-blue-800">
+              <p className="">
                 障がいや病気のある方が、孤独や孤立を感じたときに、安心して人とつながれる場所をつくりたいという思いから開発したプロダクトです。
               </p>
 
@@ -337,34 +334,34 @@ export default function Home() {
           <small className="p-4 font-bold">SKILL</small>
           <h3 className="text-2xl font-bold">スキル・使用ツール</h3>
           <div>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-30 text-center m-2">
+            <p className="px-3 py-1 w-30 text-center m-2">
               HTML/CSS
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+            <p className="px-3 py-1 w-50 text-center m-2">
               JavaScript/TypeScript
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-40 text-center m-2">
+            <p className="px-3 py-1 w-40 text-center m-2">
               Next.js/React.js
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-40 text-center m-2">
+            <p className="px-3 py-1 w-40 text-center m-2">
               Python/R
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-60 text-center m-2">
+            <p className="px-3 py-1 w-60 text-center m-2">
               Django/Tensorflow/PyTorch
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+            <p className="px-3 py-1 w-50 text-center m-2">
               GitHub/Vscode/Codex
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+            <p className="px-3 py-1 w-50 text-center m-2">
               Render.com/vercel/
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+            <p className="px-3 py-1 w-50 text-center m-2">
               Resend/Namecheape/
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+            <p className="px-3 py-1 w-50 text-center m-2">
               Pinecone/supabase
             </p>
-            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-30 text-center m-2">
+            <p className="px-3 py-1 w-30 text-center m-2">
               CloudFlare
             </p>
           </div>
