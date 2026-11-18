@@ -119,13 +119,13 @@ export default function Home() {
               />
               <small className="text-green-800">HACK</small>
               <h3>卒業研究：精神的苦痛の関連要因の探索</h3>
-              <p className="">
+              <p className="text-sm">
                 統計解析と機械学習を用いた深刻な精神的苦痛の関連要因の探索
               </p>
 
               <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2sm w-4/5 text-center w-40 md:w-50">
                 <a
-                  href="https://portfolio-site-thesis-project-kujwb6geu.vercel.app/"
+                  href="https://portfolio-site-thesis-project.vercel.app/"
                   className="block  flex w-full text-center justify-center"
                 >
                   <p className="text-white pl-1">詳細</p>
