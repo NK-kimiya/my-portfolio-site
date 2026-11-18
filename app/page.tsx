@@ -28,7 +28,7 @@ export default function Home() {
           disabilities or illnesses
         </h2>
         <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-4/6 md:w-80 text-center">
-          <a href="" className="block  flex w-full text-center justify-center">
+          <a href="https://github.com/NK-kimiya?tab=repositories" className="block  flex w-full text-center justify-center">
             <FontAwesomeIcon icon={faGithub} className="w-[30px] text-white" />
             <p className="text-white pl-1">GitHub</p>
           </a>
