@@ -1,67 +1,376 @@
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="">
+      <header className="md:flex md:justify-between">
+        <h1 className="text-2xl py-2 px-4">kimiyasu</h1>
+        <nav className="">
+          <ul className="flex">
+            <li className="p-2">
+              <a href="#work">WORKS</a>
+            </li>
+            <li className="p-2">
+              <a href="#learn">LEARNING</a>
+            </li>
+            <li className="p-2">
+              <a href="#SKILLS">SKILLS</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div id="main-visual" className="p-4 w-5/6 mx-auto">
+        <small className="p-4">STUDENT PORTFOLIO / 2026</small>
+        <h2 className="text-4xl p-4">
+          I want to use IT to alleviate the loneliness<br></br> of people with
+          disabilities or illnesses
+        </h2>
+        <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-3/5 text-center">
+          <a href="" className="block  flex w-full text-center justify-center">
+            <FontAwesomeIcon icon={faGithub} className="w-[30px] text-white" />
+            <p className="text-white pl-1">GitHub</p>
+          </a>
+        </button>
+      </div>
+      <main className="">
+        <div id="work" className="w-5/6 mx-auto font-bold">
+          <small className="p-4">PRODUCT</small>
+          <h3 className="text-2xl font-bold">制作物・活動</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="shadow-lg p-6 m-2">
+              <Image
+                className="w-80"
+                src="/2024-web-contest.png"
+                alt="第24回webコンテスト"
+                width={800}
+                height={600}
+                priority
+              />
+              <small>WEB CONTEST</small>
+              <h3>
+                第24回全国中学高校Webコンテスト(高校生の部（Web教材・社会科学）)
+                Webコンテスト
+              </h3>
+              <p className="text-gray-500">銀賞</p>
+              <p>
+                <a
+                  href="https://webcon.japias.jp/page-library_24.html"
+                  className="inline-flex font-medium items-center text-fg-brand hover:underline text-blue-500"
+                >
+                  全国中学高校Webコンテスト第24回受賞作品
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://contest.japias.jp/tqj24/240313G/"
+                  className="inline-flex font-medium items-center text-fg-brand hover:underline text-blue-500"
+                >
+                  作品名「汚染防止プロセス～現状から今できることへ～」
+                </a>
+              </p>
+            </div>
+
+            <div className="shadow-lg p-6 m-3">
+              <Image
+                className="w-80"
+                src="/hack-u.png"
+                alt="ハッカソンイメージ"
+                width={800}
+                height={600}
+                priority
+              />
+              <small className="text-green-800">HACK</small>
+              <h3>Open Hack U 2023 ONLINEOpen Hack U 2023 ONLINE</h3>
+              <p className="text-gray-500 text-yellow-500">
+                最優秀賞・Happy Hacking賞
+              </p>
+              <p>
+                <a
+                  href="https://hacku.yahoo.co.jp/hacku2023_online/"
+                  className="inline-flex font-medium items-center text-fg-brand hover:underline text-blue-500"
+                >
+                  Open Hack U 2023 ONLINE
+                </a>
+              </p>
+
+              <p>作品名「ポチナビ」・チーム名「雛たち」</p>
+
+              <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-4/5 text-center">
+                <a
+                  href="https://github.com/Naoya-Yasuda/HackU2023_project.git"
+                  className="block  flex w-full text-center justify-center"
+                >
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="w-[30px] text-white"
+                  />
+                  <p className="text-white pl-1">GitHub</p>
+                </a>
+              </button>
+              <small className="block">
+                ハッカソンチーム「雛たち」のgithunリポジトリ
+              </small>
+            </div>
+
+            <div className="shadow-lg p-6 m-3">
+              <Image
+                className="w-80"
+                src="/academy-thesis.png"
+                alt="ハッカソンイメージ"
+                width={800}
+                height={600}
+                priority
+              />
+              <small className="text-green-800">HACK</small>
+              <h3>卒業研究：精神的苦痛の関連要因の探索</h3>
+              <p className="text-blue-800">
+                統計解析と機械学習を用いた深刻な精神的苦痛の関連要因の探索
+              </p>
+
+              <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-4/5 text-center">
+                <a
+                  href="https://portfolio-site-thesis-project-kujwb6geu.vercel.app/"
+                  className="block  flex w-full text-center justify-center"
+                >
+                  <p className="text-white pl-1">研究を見る</p>
+                </a>
+              </button>
+            </div>
+
+            <div className="shadow-lg p-6 m-3">
+              <Image
+                className="w-80"
+                src="/lifenect.png"
+                alt="lifenectイメージ"
+                width={800}
+                height={600}
+                priority
+              />
+              <h3>個人開発：「LifeNect」</h3>
+              <p className="text-blue-800">
+                障がいや病気のある方が、孤独や孤立を感じたときに、安心して人とつながれる場所をつくりたいという思いから開発したプロダクトです。
+              </p>
+
+              <button className="bg-green-800 py-2 px-2 rounded-2xl m-4 text-2xl w-4/5 text-center">
+                <a
+                  href="https://portfolio-site-lifenect.vercel.app/"
+                  className="block  flex w-full text-center justify-center"
+                >
+                  <p className="text-white pl-1">デモを見る</p>
+                </a>
+              </button>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div id="learn" className="w-5/6 mx-auto">
+          <small className="p-4 font-bold">LEARNING</small>
+          <h3 className="text-2xl font-bold">大学で学んでいること</h3>
+          <p>コンピューターサイエンス</p>
+          <ul>
+            <li>・AI開発</li>
+            <li>・データサイエンス</li>
+            <li>・プログラミング（Python、Rなど、C言語など）</li>
+            <li>・アルゴリズムとデータ構造</li>
+            <li>・インターネット、ネットワーク技術</li>
+            <li>・情報セキュリティ</li>
+            <li>・UNIX</li>
+            <li>・生成AI概論</li>
+          </ul>
+          <div>
+            <div className="w-full grid grid-cols-1 md:grid-cols-4 mx-auto">
+              <div className="">
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/openbadge01.png"
+                  alt="AI卒業研究のオープンバッジ"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/badge-qr01.png"
+                  alt="AI卒業研究のオープンバッジQRコード"
+                  width={800}
+                  height={600}
+                  priority
+                />
+              </div>
+
+              <div>
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/openbadge-02.png"
+                  alt="AI応用基礎レベルのオープンバッジ"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/badgeqr-02.png"
+                  alt="AI応用基礎レベルのオープンバッジQRコード"
+                  width={800}
+                  height={600}
+                  priority
+                />
+              </div>
+
+              <div>
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/openbadge-03.png"
+                  alt="AI/Artificial Intelligenceのオープンバッジ"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/badgeqr-03.png"
+                  alt="AI/Artificial IntelligenceのオープンバッジQRコード"
+                  width={800}
+                  height={600}
+                  priority
+                />
+              </div>
+
+              <div className="">
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/openbadge-04.png"
+                  alt="ソフトウェア/Software Engineeringのオープンバッジ"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/badgeqr-04.png"
+                  alt="ソフトウェア/Software EngineeringのオープンバッジQRコード"
+                  width={800}
+                  height={600}
+                  priority
+                />
+              </div>
+
+              <div className="">
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/openbadge05.png"
+                  alt="テクノロジー基礎Ⅰのオープンバッジ"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/badgeqr-05.png"
+                  alt="テクノロジー基礎ⅠのオープンバッジQRコード"
+                  width={800}
+                  height={600}
+                  priority
+                />
+              </div>
+
+              <div className="">
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/openbadge07.png"
+                  alt="テクノロジー基礎IIのオープンバッジ"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/badgeqr-07.png"
+                  alt="テクノロジー基礎IIのオープンバッジQRコード"
+                  width={800}
+                  height={600}
+                  priority
+                />
+              </div>
+
+              <div className="">
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/openbadge06.png"
+                  alt="数学基礎/のオープンバッジ"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/badgeqr-06.png"
+                  alt="テクノロジー基礎ⅠのオープンバッジQRコード"
+                  width={800}
+                  height={600}
+                  priority
+                />
+              </div>
+
+              <div className="">
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/openbadge08.png"
+                  alt="AIリテラシーレベルのオープンバッジ"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <Image
+                  className="w-50 block mx-auto"
+                  src="/badgeqr-08.png"
+                  alt="AIリテラシーレベルのオープンバッジQRコード"
+                  width={800}
+                  height={600}
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="learn" className="w-5/6 mx-auto">
+          <small className="p-4 font-bold">SKILL</small>
+          <h3 className="text-2xl font-bold">スキル・使用ツール</h3>
+          <div>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-30 text-center m-2">
+              HTML/CSS
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+              JavaScript/TypeScript
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-40 text-center m-2">
+              Next.js/React.js
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-40 text-center m-2">
+              Python/R
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-60 text-center m-2">
+              Django/Tensorflow/PyTorch
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+              GitHub/Vscode/Codex
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+              Render.com/vercel/
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+              Resend/Namecheape/
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-50 text-center m-2">
+              Pinecone/supabase
+            </p>
+            <p className="border-1 border-gray-300 rounded-xl px-3 py-1 w-30 text-center m-2">
+              CloudFlare
+            </p>
+          </div>
         </div>
       </main>
     </div>
