@@ -53,7 +53,7 @@ export default function Home() {
                 第24回全国中学高校Webコンテスト(高校生の部（Web教材・社会科学）)
                 Webコンテスト
               </h3>
-              <p className="text-gray-500">銀賞</p>
+              <p className="">銀賞</p>
               <p>
                 <a
                   href="https://webcon.japias.jp/page-library_24.html"
@@ -83,13 +83,13 @@ export default function Home() {
               />
               <small className="text-green-800">HACK</small>
               <h3>Open Hack U 2023 ONLINEOpen Hack U 2023 ONLINE</h3>
-              <p className="text-gray-500 text-yellow-500">
+              <p className="">
                 最優秀賞・Happy Hacking賞
               </p>
               <p>
                 <a
                   href="https://hacku.yahoo.co.jp/hacku2023_online/"
-                  className="inline-flex font-medium items-center text-fg-brand hover:underline text-blue-500"
+                  className="inline-flex font-medium items-center text-fg-brand hover:underline text-blue-500 underline"
                 >
                   Open Hack U 2023 ONLINE
                 </a>
