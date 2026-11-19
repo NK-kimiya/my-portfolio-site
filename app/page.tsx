@@ -118,7 +118,7 @@ export default function Home() {
                 priority
               />
               <small className="text-green-800">HACK</small>
-              <h3　className="text-lg>卒業研究：精神的苦痛の関連要因の探索</h3>
+              <h3　className="text-lg">卒業研究：精神的苦痛の関連要因の探索</h3>
               <p className="text-sm">
                 統計解析と機械学習を用いた深刻な精神的苦痛の関連要因の探索
               </p>
